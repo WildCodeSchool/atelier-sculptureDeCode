@@ -28,7 +28,8 @@ Mais le code ne peux jamais expliquer **pourquoi** tu as fait ce commit.
   pour `git commit`, puis écrire ton message de commit dans ton éditeur de texte.
 * [Associer son éditeur de texte avec Git](https://help.github.com/articles/associating-text-editors-with-git/)  
   Configure git pour qu'il ouvre ton editeur de texte préféré au moment d'écrire
-  un message de commit : atom, sublime-text, vim ou même emacs 
+  un message de commit : atom, sublime-text, vim ou même emacs  
+  ![Editer un message de commit](http://images.innoveduc.fr/git_commit_vim.png)
 
 ### Sculpter sur la bonne branche
 
@@ -36,6 +37,8 @@ Afin de ne pas scier la branche sur laquelle tu est assis-e il faut toujours que
 tu soit conscient-e de la branche sur laquelle tu te trouve. Le meilleur moyen
 est de personnaliser le prompt de ton shell pour que cette information soit
 toujours visible dans ton terminal.
+
+![Mon shell](http://images.innoveduc.fr/zsh.png)
 
 Oh My ZSH est un framework pour gérer la configuration du shell ZSH. C'est un
 ZSH est livré avec quelques plugins qui te permettrons de personnaliser ton prompt
