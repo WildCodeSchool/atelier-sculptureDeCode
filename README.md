@@ -101,9 +101,33 @@ Swiffer n'a qu'à bien se tenir !
 
 ### Écrire des messages de commits au scalpel
 
+Quand tu commences à travailler sur une fonctionnalité et que chemin faisant tu
+trouves du code qui pique les yeux mais qui n'est pas lié à la fonctionnalité
+en cours et que tu décide de le refactorer quand même...  
+Alors tu te trouves dans une situation où des modifications non liées entre elles
+se retrouvent dans le *Working directory* de git.
 
+Quelles sont tes options ?
+
+1. Ajouter toutes les modifications dans l'*index* de git et faire *un* commit.
+2. Ajouter les modifications liées à ta fonctionnalité dans l'*index* et les
+commiter, puis ajouter les modifications liées au refactoring dans l'*index* et 
+faire un deuxième commit.
+
+Dans le premier cas c'est un peu comme si tu rangeais ton appartement avec un grand 
+sac poubelle avant de le stocker dans un placard. Dans le deuxième cas tu ranges
+vraiment chaque chose à sa place sans tout mélanger.
+
+Bien entendu la deuxième option est la bonne, surtout quand tu n'est pas le seul
+à vivre dans l'appartement en question.
+
+La commande magique est `git add -p` comme *patch*. Elle permet de sélectionner 
+avec précision quels sont les changements du *working directory* que l'on ajoute
+dans l'*index*.
 
 #### Ressources
+
+* [Introduction to git patch](https://www.youtube.com/watch?v=Wl0NfWYrvlY)
 
 ## Challenge
 
