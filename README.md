@@ -19,14 +19,14 @@ Mais le code ne peux jamais expliquer **pourquoi** tu as fait ce commit.
 
 #### Ressources
 
-* [Writing great commit messages](http://sundeepgupta.ca/writing-great-git-commit-messages/)
-* [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+* [Writing great commit messages](http://sundeepgupta.ca/writing-great-git-commit-messages/)  
+* [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)  
   Lis cet article avec attention, et imprime les 7 règles dans ta tête et partout
   où c'est nécessaire pour que chaque commit que tu écris respecte ces règles.
-* [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)
+* [5 Useful Tips For A Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message)  
   Comme le précise cet article tu vas devoir abandonner la commande `git commit -m`
   pour `git commit`, puis écrire ton message de commit dans ton éditeur de texte.
-* [Associer son éditeur de texte avec Git](https://help.github.com/articles/associating-text-editors-with-git/)
+* [Associer son éditeur de texte avec Git](https://help.github.com/articles/associating-text-editors-with-git/)  
   Configure git pour qu'il ouvre ton editeur de texte préféré au moment d'écrire
   un message de commit : atom, sublime-text, vim ou même emacs 
 
@@ -53,11 +53,11 @@ taper les commandes:
 
 #### Ressources
 
-* [Installer Oh My ZSH](http://ohmyz.sh/)
-* [Liste des thèmes livrés avec Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)
+* [Installer Oh My ZSH](http://ohmyz.sh/)  
+* [Liste des thèmes livrés avec Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)  
   Choisis en un où le nom de la branche en cours est affichée, personellement
   j'utilise le thème *gallois*
-* [Exemple de .zshrc](sur mon github)
+* [Exemple de .zshrc](sur mon github)  
   Le fichier `~/.zshrc` permet de personnaliser la configuration de ZSH (par
   exemple pour activer le plugin *git*).
   Après avoir modifié et enregistré ce fichier il faut recharger la configuration
@@ -96,7 +96,7 @@ Swiffer n'a qu'à bien se tenir !
 
 #### Ressources
 
-* [Démo de Git rebase](https://www.youtube.com/watch?v=qh9KtjfjzCU)
+* [Démo de Git rebase](https://www.youtube.com/watch?v=qh9KtjfjzCU)  
   Regarde cette démo (~5min) pour découvrire `git rebase -i` en action
 
 ### Écrire des messages de commits au scalpel
