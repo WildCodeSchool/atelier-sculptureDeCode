@@ -136,13 +136,20 @@ dans l'*index*.
 Redonne du sens à l'historique de cette branche. Garde en tête que tes messages
 de commits doivent raconter une histoire à celui ou celle qui les lis.
 
-1. fork [ce repo]()
+1. clone [ce repo](https://github.com/WildCodeSchool/sculpture_de_code) sur ta
+machine
 2. clone ton fork sur ta machine
 3. Place toi sur la branche `pere-castor`
-4. Remet de l'ordre dans les commits de cette branche
-5. Push la branche mise à jour sur ton fork (-f)
-6. Depuis github fais une pull request de la branche `
+4. Créé une branche depuis `pere-castor` qui s'appelle `ton_pseudo_github-pere-castor`
+4. Remet de l'ordre dans les commits ta branche
+5. Push ta branche sur github
+6. Depuis github fais une pull request de ta branche vers le master, SANS LA MERGER
 
 ### Critères de validation
 
-* 
+Tu peux aller te promener sur les pull requests des autres pour commenter leur
+travail.
+
+* Les commits de la branche ont été remodélés
+* Les messages de commits ont été changés
+
