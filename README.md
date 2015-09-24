@@ -57,7 +57,7 @@ taper les commandes:
 * [Liste des thèmes livrés avec Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/themes)  
   Choisis en un où le nom de la branche en cours est affichée, personellement
   j'utilise le thème *gallois*
-* [Exemple de .zshrc](sur mon github)  
+* [Exemple de .zshrc](https://github.com/Em-AK/dotfiles/blob/tesla/.zshrc)  
   Le fichier `~/.zshrc` permet de personnaliser la configuration de ZSH (par
   exemple pour activer le plugin *git*).
   Après avoir modifié et enregistré ce fichier il faut recharger la configuration
